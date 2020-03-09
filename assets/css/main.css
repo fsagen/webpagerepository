@@ -2916,7 +2916,7 @@ input, select, textarea {
 	#header {
 		padding: 9em 0 9em 0 ;
 		background-color: #fff;
-		color: rgba(255, 255, 255, 0.75);
+		/* color: rgba(255, 255, 255, 0.75); */
 		/* background-attachment: fixed,							fixed,							fixed; */
 		/* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
 		background-position: top left,						center center,					center center;
@@ -2931,7 +2931,7 @@ input, select, textarea {
 		}
 
 			#header a:hover {
-				color: #f5f5f5;
+				color: #999;
 			}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
@@ -2939,7 +2939,7 @@ input, select, textarea {
 		}
 
 		#header header p {
-			color: #ffffff;
+			color: #555;
 		}
 
 		#header header.major:after {
